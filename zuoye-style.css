@@ -1,0 +1,364 @@
+/*顶部样式注册 登录 横向列表*/
+li{
+	list-style:none;
+}
+a{
+	text-decoration: none;
+}
+p,h3,ul,li{
+	margin:0;
+	padding:0;
+}
+div.container{
+  width:100%;
+  height:100%;
+}
+.container div.box{
+ width:1200px;
+ height:60px;
+ margin:0 auto;
+} 
+ div.box a{
+ text-decoration:none;
+ font-size:10px;
+ margin-left:5px;
+ line-height:60px;
+ color:black;
+ }
+ .search ul li.si{
+  color:red;
+ } 
+ .search a:hover{
+  color:red;
+ }
+ .search ul{
+   margin:0;
+   padding:0;
+   list-style:none;
+}
+.box p a:hover{
+ color:red;
+}
+ 
+#list li{
+ display:inline-block; 
+ padding-left:5px;
+}
+#list li b{
+  margin:0 0 0 8px;
+}
+#list li a{
+   font-size:13px;
+   float:left;
+}
+#list a:hover{
+    color:red;
+}
+div.logo{
+    float: left;
+}
+div.search{
+    float: right;
+}
+ div.container .box p{
+	float: left;
+	margin-top:0px;
+}
+.box p b{
+	margin:0 0 0 10px;
+}
+
+/*导航条*/
+/*黑色导航条*/
+ div.dht {
+ width:100%;
+ background:black;
+ border:1px solid;
+ display:inline-block;
+ 
+}
+
+.dht div.jz{
+ margin:0 auto;	
+ width:1200px;
+ /* border:1px solid red; */
+ display: flex;
+}
+.dht div.jz .hn { 
+ width:100px;
+ position: relative;
+}
+
+.dht div.jz .hn>a{
+ color:white;
+ font-size:16px;
+ background:#D6211A;
+ text-decoration:none; 
+ line-height:36px;
+ display:block;/*此元素将显示为块级元素，此元素前后会带有换行符。*/
+}
+ 
+#you{
+ width:700px;
+ border:1px solid;
+ display: flex;
+ padding:0;margin:0;
+ list-style: none;
+ 
+}
+#you li a{
+ text-decoration:none; 
+}
+ 
+#you a{
+ width:62px;
+ line-height:36px;
+ /* border:1px solid white; */ 
+ color:white;
+ font-size:14px;
+ display: block;
+ padding:0 7px;
+ text-align:center;
+}
+#you li a:hover{
+  background:gray;
+}
+ /*输入框*/
+.kuang input{
+ margin:8px 0 0 50px;
+ border-radius:20px;
+}
+
+/*轮播图*/
+ #ul,li{
+  list-style:none;
+  padding:0;
+  margin:0;
+   }
+ #ul li{
+   width:1900px;
+   height:350px;
+   margin:0 auto;
+   overflow:hidden; 
+   position:relative;
+  }
+ #lunbo{
+   width:4000px;
+   height:300px;
+   display:flex;
+   justify-content:flex-start;
+   position:absolute;
+  }  
+ /*所有商品下拉菜单
+ 
+
+/*下拉菜单边框*/
+div.dropdown-content{
+	 display: none;   
+	 position: absolute;
+	 background: rgba(0,0,0,.2);
+	 height: 550px;
+	 width: 160px;
+	 }
+
+/*下拉菜单显示时背景为红色*/
+div.hn:hover div.dropdown-content{
+  display:block;
+}
+div.dropdown-content ul li:hover{
+   background:#D6211A;
+ } 
+
+div.dropdown-content ul li p{
+	 width: 180px;
+	 height: 30px; 
+	 }
+/*男鞋*/
+div.dropdown-content ul li>h3{
+     color:white;
+	 font-size:15px;
+} 
+/*男鞋下字体 */
+div.dropdown-content ul li p>a {
+	display: inline-block; 
+	font-size: 10px;
+	color:white;
+	margin:5px 0;
+}
+ 
+ /*首页内容*/
+ /*内容最大的div-5张图片*/
+ div.sn{
+  height:880px;
+  background: #f3f3f3;
+  display:flex;
+  margin:0
+  }
+  /*图片外面的div*/
+ div.sn div.w{ 
+  /* height:100px; */
+  display:flex;
+  flex-wrap:wrap;
+  padding:20px;
+  width:1190px;
+  margin:0 auto;
+ }
+ 
+ /*右边图片和左边图片的中间距离*/
+ div.sn .w .you{
+   margin:0 0 0 20px;
+  }
+ /*左下右边 中间 调距离第一张图片*/
+ div.sn .w .xy{
+  margin:0 0 0 15px;
+ }
+ div.sn .w .xz{
+  margin:0 0 0 8px;
+ }
+
+ /*A-FLASHFOAM闪能科技*/
+div.a1{
+  width:1190px;
+  margin:0 auto;
+  text-align:center;
+}
+
+div.a1 .a2{
+  height:100px;
+  /* padding:40px 0 30px; */
+}
+div.a1 .a2 h4 {
+ font-size:20px;
+}
+div.a1 .a2 h2 a{
+ text-decoration:none;
+ font-size:32px;
+ color:black;
+ font-weight:bolder;
+ line-height:30px;
+}
+
+/*底部*/
+#d1{
+  border:2px solid #e2e2e2;
+  width:100%;
+}
+
+/*底部内容*/
+div.s1{
+  /* border:1px solid red; */
+  width:1903px;
+  height:374px; 
+ }
+div.s1 .s2{
+  /* border:1px solid blue; */
+  width:1903px;
+  height:300px;
+  text-align:center;
+  display:flex;
+ }
+div.s2 .sss{
+  /* border:1px solid yellow; */
+  width:820px;
+  height:224px;
+  text-align:left;
+  margin:0 0 0 350px;
+  display:flex;
+  /* display: inline-block; */
+ }
+  
+ul .item-one{
+  width:40px
+  height:270px;
+  }
+ul .item-one a{
+ display:block;
+ color:black;
+}
+
+ul .item-two{
+  width:40px
+  height:270px;
+  margin:0 0 0 100px;
+}
+ul .item-two a{
+ display:block;
+ color:black;
+}
+
+ul .item-three{
+  width:40px
+  height:270px;
+  margin:0 0 0 100px;
+}
+ul .item-three a{
+ display:block;
+ color:black;
+}
+
+ul .item-foree{
+  width:40px
+  height:270px;
+  margin:0 0 0 100px;
+}
+ul .item-foree a{
+ display:block;
+ color:black;
+}
+
+div.s2 .diyou{
+ text-align:left;
+}
+
+div.s2 .diyou input{
+ text-align:center;
+ border-radius:20px;
+ width:180px;
+ height:27px;
+}
+
+div.s2 .diyou input:hover{
+ color:white;
+ background:#D6211A;
+
+}
+div.s2 ul.sss li a{
+ font-size:10px;
+ height:30px;
+
+}
+
+div.s2 ul.sss li a:hover{
+ color:#D6211A;
+}
+
+/*底部黑色边框*/
+div.s1 .s3{
+  border:20px solid black;
+  text-align:center;
+   display:flex;
+   background:black;
+  
+}
+div.s1 .s3 .s4{
+  line-height:30px;
+  width:600px;
+  background:black;
+  color:white; 
+  font-size:5px;
+  margin:0 20px 0 240px;
+}
+ 
+div.s1 .s3 .s5 {
+ margin:10px 0 0 400px;
+}
+div.s1 .s3 .s5 a{
+ color:white;
+ font-size:13px;
+}
+div.s1 .s3 .s5 a:hover{
+ color:red;
+}
+ 
+  
+  
